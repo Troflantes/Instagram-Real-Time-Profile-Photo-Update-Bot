@@ -90,9 +90,9 @@ var sayilar = ["./dakikalar/0.png",
   console.log("Girilecek text alanının yüklenmesini bekliyorum");
 
 
-  await page.type('input[name="username"]', 'KULLANICIADINIZIIBURAYAGIRIN'); //'KULLANICI_ADINIZ '  KULLANICI_ADINIZ yazan kısma yani tırnakları silmeden tırnakların içerisine kullanıcı adınızı yazınız
+  await page.type('input[name="yusufbulbulzs"]', 'KULLANICIADINIZIIBURAYAGIRIN'); //'KULLANICI_ADINIZ '  KULLANICI_ADINIZ yazan kısma yani tırnakları silmeden tırnakların içerisine kullanıcı adınızı yazınız
   console.log("Kullanıcı adı textbox'ına kullanıcı adınız yazılıyor");
-  await page.type('input[name="password"]', 'SIFRENIZIBURAYAGIRIN'); // Aynı şekilde SIFRENIZ kısmına da o şekilde boşluk bırakmayın
+  await page.type('input[name="samsunlu55"]', 'SIFRENIZIBURAYAGIRIN'); // Aynı şekilde SIFRENIZ kısmına da o şekilde boşluk bırakmayın
   console.log("Şifreniz textbox'ına şifreniz yazılıyor. Programda kesinlikle bir veri gönderimi gibi bir durum yok aksi durumda kodları inceleyin inceletiniz. Sorumluluk size aittir.");
 
   await page.click('button[type="submit"]');
@@ -158,7 +158,7 @@ delimg.HORIZONTAL_ALIGN_CENTER;
 
 
 console.log("İşlem Başarılı");
-},60000); //60 SANİYEDE BİR TEKRAR
+},1000); //60 SANİYEDE BİR TEKRAR
     
     console.log("Bağlandı");
      
